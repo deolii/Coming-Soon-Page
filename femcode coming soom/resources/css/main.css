@@ -1,0 +1,73 @@
+body{
+     margin: 0px;
+     padding: 0px;
+}
+
+section#landing{
+   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../images/pexel.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #fff;
+   padding: 100px;
+}
+
+   section#landing > div.landing-content{
+   	-webkit-box-shadow:13px 39px 89px -1px rgba(255,255,255,0.63);
+   	-moz-box-shadow: 13px 39px 89px -1px rgba(255,255,255,0.63); 
+   	box-shadow: 13px 39px 89px -1px rgba(255,255,255,0.63);
+   	background: transparent;
+   	padding: 50px 20px;
+   	text-align: center;
+   	border-radius: 10px;
+}
+
+   section#landing > div.landing-content > div.logo-div img{
+   	width: 330px;
+}
+
+   .landing-content h1{
+   	  font-size: 50px;
+}
+   .botton-div{
+   	padding-top: 20px;
+	padding-bottom: 30px;
+	cursor: all-scroll;   
+}
+
+   a{
+   	text-decoration: none;
+   	color: #fff;
+}
+
+   .btn{
+   	background-color: #000066;
+   	border: 0.3px solid #000066;
+   	padding: 3px;
+   	border-radius: 10px;
+   	color: #fff;
+   	margin-top: 10px 20px;
+   	transition: 1s all;
+}
+
+   .btn:hover{
+   	background-color: #01AFEF;
+   	border: 2px solid #01AFEF;
+   	color: #fff;
+   	transition: 1s all;
+}
+
+   div.social a i{
+   	margin: 5px;
+
+}
+
+   @media only screen and (max-width: 768px) {
+  section#landing > div.landing-content>div.logo-div img{
+    width: 200px;
+
+  }
+
+}
+
+  
+
